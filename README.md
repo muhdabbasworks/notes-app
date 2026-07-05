@@ -8,7 +8,7 @@ This project allows users to create, edit, delete, search, and permanently save 
 
 ## 🚀 Live Demo
 
-👉 https://YOUR_USERNAME.github.io/notes-app/
+👉 https://muhdabbasworks.github.io/notes-app/
 
 ---
 
