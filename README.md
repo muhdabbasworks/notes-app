@@ -58,20 +58,6 @@ While building this project I practiced:
 
 ---
 
-## 📂 Project Structure
-
-```
-notes-app/
-│
-├── index.html
-├── style.css
-├── script.js
-├── README.md
-└── screenshots/
-```
-
----
-
 ## 🎯 Future Improvements
 
 - Dark / Light Mode
