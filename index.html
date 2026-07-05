@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="description"
+        content="A Notes App built with HTML, CSS and Vanilla JavaScript."
+    >
+    <title>Notes App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main class="app">
+
+    <h1>Notes</h1>
+
+    <form id="note-form" class="input-box">
+        <input type="text" id="note-title" placeholder="Title" required>
+        <textarea
+            id="note-input"
+            placeholder="Write a note..."
+            required
+        ></textarea>
+
+        <button type="submit" id="add-btn">
+            Add
+        </button>
+
+        <button type="button" id="save-btn" hidden>Save</button>
+    </form>
+
+    <div class="toolbar">
+
+        <input
+            type="text"
+            id="search-input"
+            placeholder="Search notes..."
+        >
+
+        <p>
+            <span id="notes-count"></span>
+            Notes
+        </p>
+
+    </div>
+
+    <ul id="notes-list">
+    </ul>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
